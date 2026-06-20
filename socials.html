@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials | Fer Catana</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .linktree-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--glass-border);
+            margin-bottom: 1.5rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .section-title {
+            text-align: left;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin: 2.5rem 0 1rem 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            color: var(--text-main);
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .social-btn img {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+            object-fit: contain;
+        }
+
+        /* Invert black logos for dark theme */
+        .invert-logo {
+            filter: brightness(0) invert(1);
+        }
+
+        /* Hover Gradients for Socials */
+        .btn-ig:hover {
+            background: linear-gradient(45deg, rgba(240, 148, 51, 0.6), rgba(230, 104, 60, 0.6), rgba(220, 39, 67, 0.6), rgba(204, 35, 102, 0.6), rgba(188, 24, 136, 0.6));
+        }
+        .btn-x:hover {
+            background: linear-gradient(135deg, rgba(80,80,80,0.6), rgba(0,0,0,0.8));
+        }
+        .btn-tiktok:hover {
+            background: linear-gradient(135deg, rgba(0, 242, 254, 0.4), rgba(254, 0, 88, 0.4));
+        }
+        
+        .btn-portfolio:hover {
+            background: linear-gradient(90deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+        }
+
+        /* Hover Gradients for Gaming */
+        .btn-steam:hover {
+            background: linear-gradient(90deg, rgba(23,26,33,0.8), rgba(42,71,94,0.6));
+        }
+        .btn-epic:hover {
+            background: linear-gradient(90deg, rgba(42, 42, 42, 0.8), rgba(0,0,0,0.6));
+        }
+        .btn-bnet:hover {
+            background: linear-gradient(90deg, rgba(0, 162, 255, 0.6), rgba(0, 60, 130, 0.6)); /* Official Bnet Blue */
+        }
+        .btn-xbox:hover {
+            background: linear-gradient(90deg, rgba(16, 124, 16, 0.6), rgba(0,0,0,0.4));
+        }
+
+    </style>
+</head>
+<body>
+
+    <header id="main-header">
+        <a href="index.html" class="logo">
+            Fer Catana<span>Socials</span>
+        </a>
+        <nav class="social-links">
+            <a href="mailto:fernandocatana@outlook.es">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="linktree-container">
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200" alt="Fer Catana" class="profile-pic">
+            <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--text-main);">Fer Catana</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem;">I do a lot of things.
+</p>
+
+            <a href="index.html" class="social-btn btn-portfolio" style="border-color: rgba(255,255,255,0.3);">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 24px; height: 24px; margin-right: 12px;"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg>
+                View Portfolio
+            </a>
+
+            <!-- Socials Section -->
+            <h2 class="section-title">Socials</h2>
+            
+            <a href="https://www.instagram.com/catulcatana/" target="_blank" class="social-btn btn-ig">
+                <img src="https://cdn.simpleicons.org/instagram/white" alt="Instagram">
+                Instagram
+            </a>
+
+            <a href="https://x.com/CatulCatana" target="_blank" class="social-btn btn-x">
+                <img src="https://cdn.simpleicons.org/x/white" alt="X">
+                X (Twitter)
+            </a>
+
+            <a href="https://www.tiktok.com/@fer.catana" target="_blank" class="social-btn btn-tiktok">
+                <img src="https://cdn.simpleicons.org/tiktok/white" alt="TikTok">
+                TikTok
+            </a>
+
+            <!-- Gaming Section -->
+            <h2 class="section-title">Gaming</h2>
+            
+            <a href="https://steamcommunity.com/id/catulcatana/" target="_blank" class="social-btn btn-steam">
+                <img src="https://cdn.simpleicons.org/steam/white" alt="Steam">
+                Steam
+            </a>
+
+            <a href="https://launcher.store.epicgames.com/u/bc79c81f540040db89e7f00b7c0dadde" target="_blank" class="social-btn btn-epic">
+                <img src="https://cdn.simpleicons.org/epicgames/white" alt="Epic Games">
+                Epic Games
+            </a>
+            
+            <a href="https://www.xbox.com/en-US/play/user/Catul9251" target="_blank" class="social-btn btn-xbox">
+                <img src="assets/xbox.svg" alt="Xbox" class="invert-logo">
+                Xbox
+            </a>
+
+            <a href="#" class="social-btn btn-bnet" id="bnet-btn" onclick="copyBattleTag(event)">
+                <img src="https://cdn.simpleicons.org/battledotnet/white" alt="Battle.net">
+                <span id="bnet-text">CatulCatana#1368 (Battle.net)</span>
+            </a>
+
+        </div>
+    </main>
+
+    <script>
+        function copyBattleTag(e) {
+            e.preventDefault();
+            navigator.clipboard.writeText("CatulCatana#1368").then(() => {
+                const btnText = document.getElementById('bnet-text');
+                const btn = document.getElementById('bnet-btn');
+                
+                btnText.style.transition = "opacity 0.3s ease";
+                btnText.style.opacity = '0';
+                
+                setTimeout(() => {
+                    btnText.textContent = "Copied to clipboard!";
+                    btnText.style.opacity = '1';
+                    
+                    setTimeout(() => {
+                        btnText.style.opacity = '0';
+                        setTimeout(() => {
+                            btnText.textContent = "CatulCatana#1368 (Battle.net)";
+                            btnText.style.opacity = '1';
+                        }, 300);
+                    }, 1500);
+                }, 300);
+            });
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
