@@ -1,0 +1,30 @@
+---
+import '../styles/global.css';
+
+const { title = 'Fer Catana', description = 'Portafolio profesional de Fer Catana: Ingeniería de Software y Art Portafolio.', bodyClass = '' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <meta name="description" content={description}>
+</head>
+<body class={bodyClass}>
+
+    <header id="main-header">
+        <a href="/" class="logo">
+            Fer Catana<span>Home</span>
+        </a>
+        <nav class="social-links">
+            <a href="mailto:fernandocatana@outlook.es">Contact</a>
+            <a href="/socials/">Socials</a>
+        </nav>
+    </header>
+
+    <slot />
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>

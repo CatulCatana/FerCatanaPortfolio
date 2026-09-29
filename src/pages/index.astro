@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Home | Fer Catana" bodyClass="landing-body">
+    <main class="landing-main">
+        <section class="intro" style="text-align: center; margin: 0 auto; max-width: 900px;">
+            <h1>Hi, I'm&nbsp;<strong>Fer Catana</strong>.</h1>
+            <p style="font-size: 1.2rem; color: var(--text-muted); margin-top: 1rem;">
+                I do a lot of things.
+            </p>
+        </section>
+
+        <section class="grid" style="margin-top: 4rem;">
+            <Card 
+                href="/engineering/" 
+                imgSrc="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+                imgAlt="Engineering Portafolio"
+                category="Under Construction"
+                title="Engineering Portafolio"
+            />
+
+            <Card 
+                href="/art/" 
+                imgSrc="/assets/iwdh-pitch/1.png"
+                imgAlt="Art Portfolio"
+                category="Take a look to my best artworks"
+                title="Art Portfolio"
+            />
+
+            <Card 
+                href="/voice-acting/" 
+                imgSrc="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=800"
+                imgAlt="Actuación de Voz"
+                category="Conoce mi perfil como actor de voz"
+                title="Voice Acting(Latam Spanish)"
+            />
+        </section>
+    </main>
+</Layout>
