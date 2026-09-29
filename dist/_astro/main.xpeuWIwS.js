@@ -1,1 +1,0 @@
-var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports),t=e((()=>{var e=document.getElementById(`main-header`);window.addEventListener(`scroll`,()=>{window.scrollY>20?e.classList.add(`scrolled`):e.classList.remove(`scrolled`)})}));export{e as n,t};

@@ -1,0 +1,1 @@
+import{t as e}from"./rolldown-runtime.D9-fqq9M.js";var t=e((()=>{var e=new Date(`2001-11-24`),t=new Date,n=t.getFullYear()-e.getFullYear(),r=t.getMonth()-e.getMonth();(r<0||r===0&&t.getDate()<e.getDate())&&n--;var i=document.getElementById(`dynamic-age`);i&&(i.textContent=n.toString())}));export default t();

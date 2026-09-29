@@ -1,0 +1,1 @@
+import{t as e}from"./rolldown-runtime.D9-fqq9M.js";var t=e((()=>{var e=document.getElementById(`main-header`);window.addEventListener(`scroll`,()=>{window.scrollY>20?e.classList.add(`scrolled`):e.classList.remove(`scrolled`)})}));export{t};
